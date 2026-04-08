@@ -34,3 +34,45 @@ Dataset/
 ├── testA/        # Human faces (testing)
 
 ├── testB/        # Anime faces (testing)
+
+⚙️  **Installation**
+
+Run the following in Google Colab or locally:
+
+pip install tensorflow opencv-python matplotlib tqdm segmentation-models-pytorch scikit-image
+
+🔗 **Google Drive Setup (Colab)**
+
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+
+🖼️ Data Visualization
+
+The project randomly displays sample images from both domains:
+
+Human Faces
+Anime Faces
+
+Images are:
+
+Resized to 128×128
+Converted from BGR → RGB
+
+
+📌 **Future Improvements**
+
+🔁 Add full DiscoGAN training loop
+
+🎯 Improve style conditioning
+
+⚡ Use CycleGAN loss functions
+
+📊 Add evaluation metrics (FID score)
+
+🌐 Build web app using Streamlit
+
+
+**sample output**
+
+<img width="1307" height="649" alt="image" src="https://github.com/user-attachments/assets/807be467-55f3-4456-985c-e5ef589ceed1" />
